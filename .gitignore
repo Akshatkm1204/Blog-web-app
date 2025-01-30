@@ -1,0 +1,17 @@
+# Ignore database and secret files
+*.sqlite3
+.env
+*.pyc
+__pycache__/
+
+# Ignore Django migrations
+**/migrations/*
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.log
+
+# Ignore virtual environment
+venv/
+env/
